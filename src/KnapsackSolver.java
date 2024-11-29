@@ -1,8 +1,7 @@
 import java.util.*;
 
 // Solver usando Algoritmo A* para otimização
-public class KnapsackSolver {
-    private static final int MAX_QUEUE_SIZE = 1000;
+public class Knaptic final int MAX_QUEUE_SIZE = 1000;
     private static final int MAX_DEPTH = 50;
 
     public KnapsackState solve(Knapsack knapsack) {
